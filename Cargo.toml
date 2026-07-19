@@ -1,0 +1,21 @@
+[package]
+name = "meu_projeto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# Cross-platform (recomendado)
+midir = { version = "0.11", features = ["winrt", "jack"] }
+
+# Para processamento assíncrono
+tokio = { version = "1.0", features = ["full"] }
+
+# Utilitários
+anyhow = "1.0"
+thiserror = "1.0"
+log = "0.4"
+env_logger = "0.10"
+
+# Para mensagens MIDI
+midi-msg = "0.3"
