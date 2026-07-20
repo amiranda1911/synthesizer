@@ -19,3 +19,6 @@ env_logger = "0.10"
 
 # Para mensagens MIDI
 midi-msg = "0.3"
+
+# Para audio nativo
+cpal = "0.15"
